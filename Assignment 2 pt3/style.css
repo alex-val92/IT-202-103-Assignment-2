@@ -1,0 +1,74 @@
+body {
+    background-color: pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+
+ .container{
+    background-color: white;
+     padding: 150px;
+    border-radius: 30px;
+    width: 600px;
+    max-width: 700px;
+    text-align: center;
+    margin-top: -10%;
+ } 
+
+ h1 {
+    color: rgb(0, 0, 0);
+    font-size: xxx-large;
+    }
+  p {
+    font-size:x-large;
+    color: black;
+  }
+
+  .input-section{
+    margin-bottom: 20px;
+    text-align:center;
+
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    font-size:xx-large;
+    margin-top:5%;
+  }
+  #subtotal{
+    width: 80%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size:x-large;
+    margin-top: 2%;
+
+    }
+    #calculateButton {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size:large;
+    margin-top: 5%;
+    }
+
+    #tipPercentage{
+    width: 80%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size:x-large;
+    margin-top: 2%;
+    }
+
+    #totalAmount{
+        font-size: xx-large;
+    }
